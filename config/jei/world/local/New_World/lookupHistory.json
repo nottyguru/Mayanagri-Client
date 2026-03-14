@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:netherite_boots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_sword","components":{"minecraft:damage":136,"minecraft:enchantments":{"minecraft:sweeping_edge":2,"minecraft:sharpness":2}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"friendsandfoes:crab_claw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"friendsandfoes:crab_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"friendsandfoes:crab_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

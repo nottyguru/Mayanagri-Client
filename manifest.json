@@ -1,9 +1,23 @@
 ﻿{
-    "fabric_version":  "0.18.4",
-    "jvm_flags":  [
-                      "-XX:+UseG1GC",
-                      "-XX:+UnlockExperimentalVMOptions"
-                  ],
+    "policies":  {
+                     "initial_only_files":  [
+                                                "options.txt",
+                                                "servers.dat"
+                                            ],
+                     "strict_folders":  [
+                                            "mods",
+                                            "config"
+                                        ],
+                     "ignored_paths":  [
+
+                                       ],
+                     "lenient_folders":  [
+                                             "resourcepacks",
+                                             "shaderpacks"
+                                         ]
+                 },
+    "minecraft_version":  "1.21.11",
+    "server_port":  25565,
     "files":  [
                   {
                       "path":  "mods/animatica-0.6.1+1.21.5.jar",
@@ -1266,10 +1280,159 @@
                       "hash":  "c4fb220488de3c1afc569f4b8a89d8e97f8b5504eeb59d9700b491f29718d2f9"
                   },
                   {
+                      "path":  "resourcepacks/Chat Reporting Helper.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/resourcepacks/Chat%20Reporting%20Helper.zip",
+                      "hash":  "8a4857b238da6616a333c0bd06265053818c415ed92fd546a6e6494055a008e3"
+                  },
+                  {
+                      "path":  "resourcepacks/Mod Menu Helper.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/resourcepacks/Mod%20Menu%20Helper.zip",
+                      "hash":  "2e41662946e3928b7adf5d70e6286a651e1bf260ed3b5de6e98d0396de784298"
+                  },
+                  {
+                      "path":  "resourcepacks/SodiumTranslations.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/resourcepacks/SodiumTranslations.zip",
+                      "hash":  "dde9a737aa9de7b994d1c5466b3e98dc9c018e8496ce65382c4226ffc8b94a93"
+                  },
+                  {
+                      "path":  "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+                      "hash":  "f41db92acc585fe9ffe0cc124d6ecaea27cef9ded91129ebc2a8e60226947b2c"
+                  },
+                  {
+                      "path":  "shaderpacks/Body Camera Shader - V1.5.2.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Body%20Camera%20Shader%20-%20V1.5.2.zip",
+                      "hash":  "e08a642468582ac3036ea809ae9f3bf0db7341208c2e23d8fdc23bd152cfa10b"
+                  },
+                  {
+                      "path":  "shaderpacks/BSL_v10.1.1.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/BSL_v10.1.1.zip",
+                      "hash":  "131ca6b56b100e60577ffdb0dd51bfab2ee6e334564eeee324e5422026891668"
+                  },
+                  {
+                      "path":  "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+                      "hash":  "24a20634a7832d422d3cd5023be16829f26840e25c69404dd418306ea79f63f0"
+                  },
+                  {
+                      "path":  "shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+                      "hash":  "5cbf4d99bc7ce4f0df5c15974d276e0949bf6974d48d88a77d5e307b0b9be8af"
+                  },
+                  {
+                      "path":  "shaderpacks/CTMPOMFIX (Chocapic13\u0027 Shaders edit) (v1.9.4).zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/CTMPOMFIX%20(Chocapic13\u0027%20Shaders%20edit)%20(v1.9.4).zip",
+                      "hash":  "8330dc126cc1f4bf2e4f978acb3337963d255be713e660581c3d22ac15c002e1"
+                  },
+                  {
+                      "path":  "shaderpacks/Fantasy Shaders Reimagined v1.0.1.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Fantasy%20Shaders%20Reimagined%20v1.0.1.zip",
+                      "hash":  "f0dc75b8d34d5301b744416dcfed76c851c26100a4ae529106ec7e4761877a65"
+                  },
+                  {
+                      "path":  "shaderpacks/I Like Vanilla v1.3.2.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/I%20Like%20Vanilla%20v1.3.2.zip",
+                      "hash":  "47fd008d724d2a4cc129e87bb759c6dd246d96afe110610626b219440e0fb979"
+                  },
+                  {
+                      "path":  "shaderpacks/Just Colored Lighting (vDEV 0.9.3).zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Just%20Colored%20Lighting%20(vDEV%200.9.3).zip",
+                      "hash":  "c49723d18e2cecff23f0cb8140f93b857be86987b1ffd355715cad9034aaf7c2"
+                  },
+                  {
+                      "path":  "shaderpacks/MakeUp-UltraFast-9.4c.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/MakeUp-UltraFast-9.4c.zip",
+                      "hash":  "f88931d65e971807148d09b71ee4aa85e293184cac94405c7d84350b22cb91d9"
+                  },
+                  {
+                      "path":  "shaderpacks/MakeUp-UltraFast-9.4c.zip.txt",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/MakeUp-UltraFast-9.4c.zip.txt",
+                      "hash":  "d8bb620500c6ff138a603805e1b7fc367defd15a5b81774957ce493b2a2ba13a"
+                  },
+                  {
+                      "path":  "shaderpacks/Mellow Shader v3.0.3.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Mellow%20Shader%20v3.0.3.zip",
+                      "hash":  "f7f0f3981c450c1ecc6cdeece07ccd4815063ce0f016b28cb86ce3e08eaf2453"
+                  },
+                  {
+                      "path":  "shaderpacks/miniature-shader-2.18.10.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/miniature-shader-2.18.10.zip",
+                      "hash":  "fe38e7cadc964609d9f840ae6051b1202111e78b1fdacf0520689d72b53377c6"
+                  },
+                  {
+                      "path":  "shaderpacks/Noble v1.8.9.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Noble%20v1.8.9.zip",
+                      "hash":  "4b34d7dd1836bc1d0563e18419b93ec6e443f40f39c1af4d17789284cca68e52"
+                  },
+                  {
+                      "path":  "shaderpacks/Pegasus (v0.3.7).zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Pegasus%20(v0.3.7).zip",
+                      "hash":  "05da133f5fd9154376d134506872ef590318e8ae47083fdc96fbcb0a2905c2ad"
+                  },
+                  {
+                      "path":  "shaderpacks/Pyvtron V1.3.2.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Pyvtron%20V1.3.2.zip",
+                      "hash":  "e6bbaa4e0f2fbcf5f83c4ea202562288f533d10a7a97c020e6682ff8f4f4359a"
+                  },
+                  {
+                      "path":  "shaderpacks/Reverie Beta 1.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Reverie%20Beta%201.zip",
+                      "hash":  "4ae9866f489502a9433905213a69b86dc9ff6ac23cde7dc987690d61ac99edbe"
+                  },
+                  {
+                      "path":  "shaderpacks/Sildur\u0027s Basic Shaders v2.5 Fancy.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Sildur\u0027s%20Basic%20Shaders%20v2.5%20Fancy.zip",
+                      "hash":  "94f687ed13fa0a71ad4d8d0fc7136528e3c68cf1d768df5a7839cc6c042f0953"
+                  },
+                  {
+                      "path":  "shaderpacks/Sildur\u0027s Enhanced Default v1.18 Fancy.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Sildur\u0027s%20Enhanced%20Default%20v1.18%20Fancy.zip",
+                      "hash":  "543b0c716f2bb99b65d77200c8a50721f3d3a083d7dede8023377578fbf95c6a"
+                  },
+                  {
+                      "path":  "shaderpacks/Sildur\u0027s Vibrant Shaders v1.541 Extreme.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Sildur\u0027s%20Vibrant%20Shaders%20v1.541%20Extreme.zip",
+                      "hash":  "85ba795891d5b0d2aa8e3bc61bc2aa78ca870810b417cafdac859a55e2ca3c42"
+                  },
+                  {
+                      "path":  "shaderpacks/Simply_Upscaled (v0.4.5).zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Simply_Upscaled%20(v0.4.5).zip",
+                      "hash":  "2cd7844c766289b420ae9d09b7f51f6a4e86d0135fd702199f30c3413e235cf2"
+                  },
+                  {
+                      "path":  "shaderpacks/Solas Shader V3.4.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Solas%20Shader%20V3.4.zip",
+                      "hash":  "103af0c59ae6870dce532f7f70038039b2e172ddc9238178e7648d371c7713a0"
+                  },
+                  {
+                      "path":  "shaderpacks/Spooklementary_v2.0.4.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/Spooklementary_v2.0.4.zip",
+                      "hash":  "34ae1317940876f42272e3fd8f9ec2be97b2cdfe2eb8aeaf7bf971304d1a168d"
+                  },
+                  {
+                      "path":  "shaderpacks/§lE-LITE shaders 5.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/§lE-LITE%20shaders%205.zip",
+                      "hash":  "bc38737fc93aeaaaa21a926c74539db06776b80e6dc5a30282d7201902e11e73"
+                  },
+                  {
+                      "path":  "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+                      "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+                      "hash":  "70b6d8127a6733f0a19bd1d351b92709d6ee7496967ff49c4793d2c28c7a6c58"
+                  },
+                  {
                       "path":  "options.txt",
                       "url":  "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/options.txt",
                       "hash":  "ffd361f6bc4d798b0ad966e57c4197cc8278d8086438a3ca0d430219419fd8cf"
                   }
               ],
-    "minecraft_version":  "1.21.11"
+    "fabric_version":  "0.18.4",
+    "jvm_flags":  [
+                      "-XX:+UseG1GC",
+                      "-XX:+UnlockExperimentalVMOptions",
+                      "-XX:G1NewSizePercent=20",
+                      "-XX:G1ReservePercent=20",
+                      "-XX:MaxGCPauseMillis=50",
+                      "-XX:G1HeapRegionSize=32M"
+                  ],
+    "server_ip":  "127.0.0.1"
 }

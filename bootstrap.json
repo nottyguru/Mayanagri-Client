@@ -1,6 +1,6 @@
 {
-  "launcher_version": "1.0.1",
+  "launcher_version": "1.0.2",
   "launcher_download_url": "https://github.com/nottyguru/Mayanagri-Client/releases/latest/download/MayanagriLauncher.exe",
   "manifest_url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/modpack_manifest.json",
-  "launcher_sha256": "202f5106e0d21aabe2f891dcd581d656e42c436d812747e81ce2c446b4e17df5"
+  "launcher_sha256": "c3c8047fb07d7aed8efe27a637ba8e278aaa99d5e0e65828bb7dd51b4508f960"
 }

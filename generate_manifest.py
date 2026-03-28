@@ -37,7 +37,7 @@ def get_policy_for_file(filename, relative_path):
 
     # Ignore files in the list OR anything inside the resourcepacks folder
     if filename.lower() in ignore_files or relative_path.replace("\\", "/").startswith("resourcepacks/"):
-        return POLICY_IGNORE
+        return POLICY_STRICT
 
     # Default to Strict for mods and mandatory configs
     return POLICY_STRICT
@@ -49,7 +49,7 @@ def generate_manifest():
         "minecraft_version": "1.21.11",
         "fabric_version": "0.18.4",
         "java_version": 21,
-        "server_ip": "play.mayanagri.net",
+        "server_ip": "10.128.12.210:2556",
         "server_port": 25565,
         "jvm_flags": [
             "-XX:+UseG1GC",

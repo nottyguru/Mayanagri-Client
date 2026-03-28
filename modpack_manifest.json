@@ -1173,7 +1173,7 @@
             "path": "servers.dat",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/servers.dat",
             "sha1": "fae137250723b68a4b135e0fb6fe22ef83ee3364",
-            "policy": 1
+            "policy": 0
         },
         {
             "path": "shaderpacks/BSL_v10.1.1.zip",

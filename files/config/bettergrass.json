@@ -1,6 +1,6 @@
 {
   "general": {
-    "betterGrassMode": "FAST",
+    "betterGrassMode": "FANCY",
     "resourcePackCompatibilityMode": true,
     "blocks": {
       "grassBlocks": true,

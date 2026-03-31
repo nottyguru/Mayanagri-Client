@@ -8,10 +8,14 @@ POLICY_STRICT = 0  # Hashes must match (Mods)
 POLICY_IGNORE = 1  # Skip if exists (Player configs)
 POLICY_REPLACE = 2  # Force overwrite
 
-# Updated to match the actual folder structure in your repository
+# --- CONFIGURATION ---
 BASE_URL = "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/"
 MODPACK_FOLDER = "files"
 OUTPUT_FILE = "modpack_manifest.json"
+
+SERVER_IP = "10.128.12.210:2556" # Change this for production deployment
+SERVER_PORT = 25565
+# ---------------------
 
 def calculate_sha1(filepath):
     sha1 = hashlib.sha1()
@@ -24,7 +28,6 @@ def calculate_sha1(filepath):
     return sha1.hexdigest()
 
 def get_policy_for_file(filename, relative_path):
-    # Expanded ignore list to protect user-specific settings and caches
     ignore_files = [
         "options.txt",
         "servers.dat",
@@ -35,22 +38,21 @@ def get_policy_for_file(filename, relative_path):
         "hotbar.nbt"
     ]
 
-    # Ignore files in the list OR anything inside the resourcepacks folder
+    # FIX: Return POLICY_IGNORE so player settings don't get overwritten!
     if filename.lower() in ignore_files or relative_path.replace("\\", "/").startswith("resourcepacks/"):
-        return POLICY_STRICT
+        return POLICY_IGNORE
 
     # Default to Strict for mods and mandatory configs
     return POLICY_STRICT
 
 def generate_manifest():
-    # Added manifest_version and updated hardcoded game/server values
     manifest = {
         "manifest_version": 1,
         "minecraft_version": "1.21.11",
         "fabric_version": "0.18.4",
         "java_version": 21,
-        "server_ip": "10.128.12.210:2556",
-        "server_port": 25565,
+        "server_ip": SERVER_IP,
+        "server_port": SERVER_PORT,
         "jvm_flags": [
             "-XX:+UseG1GC",
             "-XX:MaxGCPauseMillis=50",
@@ -61,7 +63,6 @@ def generate_manifest():
 
     print("Bhai, files scan ho rahi hain...")
 
-    # Improved sanity check to ensure the folder actually exists and has contents
     if not os.path.exists(MODPACK_FOLDER) or not os.path.isdir(MODPACK_FOLDER) or not os.listdir(MODPACK_FOLDER):
         print(f"Error: '{MODPACK_FOLDER}' folder nahi mila ya khali hai. Please check the directory.")
         return
@@ -89,7 +90,6 @@ def generate_manifest():
                 }
             )
 
-    # Sort files alphabetically by path to make GitHub diffs cleaner
     manifest["files"] = sorted(unsorted_files, key=lambda x: x["path"])
 
     with open(OUTPUT_FILE, "w") as f:

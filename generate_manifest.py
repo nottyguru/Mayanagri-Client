@@ -13,7 +13,7 @@ BASE_URL = "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/fi
 MODPACK_FOLDER = "files"
 OUTPUT_FILE = "modpack_manifest.json"
 
-SERVER_IP = "10.128.12.210:2556" # Change this for production deployment
+SERVER_IP = "10.128.12.210:25556" # Change this for production deployment
 SERVER_PORT = 25565
 # ---------------------
 
@@ -40,7 +40,7 @@ def get_policy_for_file(filename, relative_path):
 
     # FIX: Return POLICY_IGNORE so player settings don't get overwritten!
     if filename.lower() in ignore_files or relative_path.replace("\\", "/").startswith("resourcepacks/"):
-        return POLICY_IGNORE
+        return POLICY_STRICT
 
     # Default to Strict for mods and mandatory configs
     return POLICY_STRICT

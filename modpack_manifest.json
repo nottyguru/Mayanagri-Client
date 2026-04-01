@@ -585,7 +585,7 @@
             "path": "config/modpack_defaults/options.txt",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/options.txt",
             "sha1": "789582a257ae296c1245a16bf1a57d120d388dac",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/moreculling.toml",
@@ -945,31 +945,31 @@
             "path": "options.txt",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/options.txt",
             "sha1": "f8d4db28d6b1f7181ce053555bf9e5a8763e1957",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "resourcepacks/Chat Reporting Helper.zip",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/resourcepacks/Chat%20Reporting%20Helper.zip",
             "sha1": "99ec1c09230307b763fd4f815b5bdd5f9e0f382d",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "resourcepacks/Mod Menu Helper.zip",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/resourcepacks/Mod%20Menu%20Helper.zip",
             "sha1": "4cb117b9b160fffb7014c4dfb3164dfbd59a9643",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "resourcepacks/SodiumTranslations.zip",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/resourcepacks/SodiumTranslations.zip",
             "sha1": "c0f37af35d47e3246b41c3e694de69185a793fb6",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "servers.dat",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/servers.dat",
             "sha1": "fae137250723b68a4b135e0fb6fe22ef83ee3364",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "shaderpacks/BSL_v10.1.1.zip",

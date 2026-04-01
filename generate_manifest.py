@@ -4,16 +4,17 @@ import json
 import urllib.parse
 
 # Policies
-POLICY_STRICT = 0  # Hashes must match (Mods)
-POLICY_IGNORE = 1  # Skip if exists (Player configs)
-POLICY_REPLACE = 2  # Force overwrite
+POLICY_STRICT = 0  # Hashes must match (mods, critical configs)
+POLICY_IGNORE = 1  # Skip if exists (player settings, local data)
+POLICY_REPLACE = 2  # Force overwrite (rare)
 
 # --- CONFIGURATION ---
 BASE_URL = "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/"
 MODPACK_FOLDER = "files"
 OUTPUT_FILE = "modpack_manifest.json"
+POLICY_FILE = "policies.json"          # optional custom policy overrides
 
-SERVER_IP = "10.128.12.210:25556" # Change this for production deployment
+SERVER_IP = "10.128.12.210:25556"       # Change for production
 SERVER_PORT = 25565
 # ---------------------
 
@@ -27,7 +28,23 @@ def calculate_sha1(filepath):
             sha1.update(data)
     return sha1.hexdigest()
 
-def get_policy_for_file(filename, relative_path):
+def get_policy_for_file(filename, relative_path, custom_policies):
+    """
+    Returns the sync policy for a file.
+    - If custom_policies dict contains an entry for the relative path, use that.
+    - Otherwise, treat files in the 'ignore_files' list as POLICY_IGNORE.
+    - Default: POLICY_STRICT.
+    """
+    # First check custom policies from the external JSON file
+    if relative_path in custom_policies:
+        pol = custom_policies[relative_path]
+        if pol == "ignore":
+            return POLICY_IGNORE
+        if pol == "replace":
+            return POLICY_REPLACE
+        # "strict" or any other value falls through to default
+
+    # Default ignore list (files that should not be overwritten)
     ignore_files = [
         "options.txt",
         "servers.dat",
@@ -38,14 +55,27 @@ def get_policy_for_file(filename, relative_path):
         "hotbar.nbt"
     ]
 
-    # FIX: Return POLICY_IGNORE so player settings don't get overwritten!
-    if filename.lower() in ignore_files or relative_path.replace("\\", "/").startswith("resourcepacks/"):
-        return POLICY_STRICT
+    # If the file matches one of these names, ignore it
+    if filename.lower() in ignore_files:
+        return POLICY_IGNORE
 
-    # Default to Strict for mods and mandatory configs
+    # Also ignore any file inside resourcepacks/ (they are big and user-provided)
+    if relative_path.replace("\\", "/").startswith("resourcepacks/"):
+        return POLICY_IGNORE
+
+    # All others are strict
     return POLICY_STRICT
 
 def generate_manifest():
+    # Load custom policies if the file exists
+    custom_policies = {}
+    if os.path.exists(POLICY_FILE):
+        try:
+            with open(POLICY_FILE, "r") as f:
+                custom_policies = json.load(f)
+        except Exception as e:
+            print(f"Warning: Could not load {POLICY_FILE}: {e}")
+
     manifest = {
         "manifest_version": 1,
         "minecraft_version": "1.21.11",
@@ -78,7 +108,7 @@ def generate_manifest():
             encoded_path = urllib.parse.quote(forward_slash_path)
             download_url = BASE_URL + encoded_path
 
-            policy = get_policy_for_file(file, forward_slash_path)
+            policy = get_policy_for_file(file, forward_slash_path, custom_policies)
             file_hash = calculate_sha1(filepath)
 
             unsorted_files.append(
@@ -96,6 +126,10 @@ def generate_manifest():
         json.dump(manifest, f, indent=4)
 
     print(f"Set hai boss! {len(manifest['files'])} files ka '{OUTPUT_FILE}' ready hai.")
+    print("Policies used:")
+    for entry in manifest["files"]:
+        pol_name = ["strict", "ignore", "replace"][entry["policy"]]
+        print(f"  {entry['path']} -> {pol_name}")
 
 if __name__ == "__main__":
     generate_manifest()

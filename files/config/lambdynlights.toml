@@ -1,12 +1,12 @@
-mode = "fancy"
+mode = "fastest"
 
 [light_sources]
-	water_sensitive_check = true
+	water_sensitive_check = false
 	beam = true
 	block_entities = false
 	firefly = true
 	glowing_effect = true
-	entities = true
+	entities = false
 	self = true
 	tnt = "simple"
 	sonic_boom = true

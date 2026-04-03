@@ -1,0 +1,4 @@
+#Fri Apr 03 15:25:36 IST 2026
+emissive_B=1.0
+emissive_G=1.0
+emissive_R=2.5

@@ -3,7 +3,7 @@
     "minecraft_version": "1.21.11",
     "fabric_version": "0.18.4",
     "java_version": 21,
-    "server_ip": "10.128.12.210:25556",
+    "server_ip": "10.175.8.210:25556",
     "server_port": 25565,
     "jvm_flags": [
         "-XX:+UseG1GC",

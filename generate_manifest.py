@@ -14,7 +14,7 @@ MODPACK_FOLDER = "files"
 OUTPUT_FILE = "modpack_manifest.json"
 POLICY_FILE = "policies.json"          # optional custom policy overrides
 
-SERVER_IP = "10.128.12.210:25556"       # Change for production
+SERVER_IP = "10.175.8.210:25556"       # Change for production
 SERVER_PORT = 25565
 # ---------------------
 

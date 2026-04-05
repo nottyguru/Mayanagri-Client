@@ -15,589 +15,589 @@
             "path": "config/.puzzle_cache/mojangstudios.png",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/.puzzle_cache/mojangstudios.png",
             "sha1": "dba50ab92eb72e3b1e6721ca702fb4c4c5479bdf",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/NoChatReports/NCR-Client.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/NoChatReports/NCR-Client.json",
             "sha1": "6ee8e2c7e9558229fab59b83909954fe6cf84271",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/NoChatReports/NCR-Common.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/NoChatReports/NCR-Common.json",
             "sha1": "030b57e4e15fef997ad0097b8f94037f5f70f64a",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/NoChatReports/NCR-ServerPreferences.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/NoChatReports/NCR-ServerPreferences.json",
             "sha1": "3c04f45c210048b5e722b294dcc0d9f073374160",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/NoChatReports/README.md",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/NoChatReports/README.md",
             "sha1": "75d98286a0aa3e180708523c8f582a2d23e590b3",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/PaginatedAdvancements.json5",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/PaginatedAdvancements.json5",
             "sha1": "1c8dd223ef5aa0e88e8a53d3d6dc059ce83cf16d",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/animatica.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/animatica.properties",
             "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/bettergrass.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/bettergrass.json",
             "sha1": "76d28e7b8c661b60db5b22bcb99a8d0f8d40191e",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/capes.json5",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/capes.json5",
             "sha1": "1b7927062ee06d00b20b1424dc81e07798beb543",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/citresewn.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/citresewn.json",
             "sha1": "39c9ef73ac33e40c3ca15cd7abc0bf1275be32e8",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/continuity.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/continuity.json",
             "sha1": "a4a92925d39f3fea97ba0934563219c98d622c7f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/controlify.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/controlify.json",
             "sha1": "c4817e8bd0837e59fc49311f3ff2d2f6d0b3448f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/config.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/config.toml",
             "sha1": "fcd191f2debeaa67575f72b9bc4df0f1a636c88f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/be_by.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/be_by.json",
             "sha1": "216f68e41873823f337a2aa2cc93f78f87d4cf07",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/en_us.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/en_us.json",
             "sha1": "4f7b0abec997e01b2bda8e103d57d4d5f35cb3b3",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/es_es.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/es_es.json",
             "sha1": "70e3ee09219f7ddbb4778977c95b6434e6af33b9",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/es_ve.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/es_ve.json",
             "sha1": "4edd5d325ef65209583f150a59cabfc71ab71dcd",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/et_ee.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/et_ee.json",
             "sha1": "753151008028d844ca0b0b726017fbd80c412b0f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/fr_fr.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/fr_fr.json",
             "sha1": "12207a38a14f92b5ba5ee71c36632b14ec4f3fd6",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/he_il.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/he_il.json",
             "sha1": "bb08953968aa6e3c336317a43d56146a35012bf9",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/it_it.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/it_it.json",
             "sha1": "b621ee3db11017bcca4a93e2a31da127b3a83423",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/ms_my.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/ms_my.json",
             "sha1": "e850df145f17784ec60b88951383c6c56228c8ab",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/pl_pl.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/pl_pl.json",
             "sha1": "84e46902219dbb2434f4ddba6ba1a3f498399ca1",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/ro_ro.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/ro_ro.json",
             "sha1": "9a296724b872ab564f0af7445449601e5e29f901",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/ru_ru.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/ru_ru.json",
             "sha1": "e4f443914be9ba1768e4f58c1a2a2695f1debe38",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/vi_vn.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/vi_vn.json",
             "sha1": "b035a70e914c6ad220bf525a5021703981ab7caf",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/zh_cn.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/zh_cn.json",
             "sha1": "d1721a5345edd6e427306f6fb6b39d47a7d2c10c",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/zh_tw.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/zh_tw.json",
             "sha1": "6822c754da9eb04003f4e713e3f4ce45c400d688",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/crash_assistant/crash_assistant_localization_overrides/zlm_arab.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/crash_assistant/crash_assistant_localization_overrides/zlm_arab.json",
             "sha1": "851dcb9333f9cf633ed1d575d0667fa185e4620b",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/cubes-without-borders.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/cubes-without-borders.json",
             "sha1": "e2cf44e89ce729b77574600be530c40de556ad00",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/debugify.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/debugify.json",
             "sha1": "e516b1d400779dbb8819e6c8397470a5608c7ec0",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/dynamic_fps.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/dynamic_fps.json",
             "sha1": "673750cd8cf6896467451122af6354fc1c6deae0",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/e4mc/e4mc.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/e4mc/e4mc.toml",
             "sha1": "5a51d61c084b257cc3b294e3a0b5ac57c36abe9c",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/entity_model_features.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/entity_model_features.json",
             "sha1": "1810dcf045ea1df76bc980e313a1b2b19725ba2e",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/entity_texture_features.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/entity_texture_features.json",
             "sha1": "cd850ddb30c9f013bde56e7fa5ed9298195d1002",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/entityculling.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/entityculling.json",
             "sha1": "d61877c33f48dfceaf2991fe8987bd7c946e4345",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/etf_warnings.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/etf_warnings.json",
             "sha1": "1573fc320a363b30a1a5e4cae1d4596ec177085d",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/euphoria_patcher/data.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/euphoria_patcher/data.json",
             "sha1": "b9967785fc578ca540aeef6a777037f6da279ed5",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/euphoria_patcher/settings.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/euphoria_patcher/settings.toml",
             "sha1": "441194ec6c70d82da9fda1a8a0651c17ca4fdf9d",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/fabric/indigo-renderer.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/fabric/indigo-renderer.properties",
             "sha1": "1df7dc4ee9a581f9418504b19967e88f96c017f5",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/fabric_loader_dependencies.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/fabric_loader_dependencies.json",
             "sha1": "cc61535defc60661904c921ac2da5ab39de42940",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/fabrishot.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/fabrishot.properties",
             "sha1": "e87106195458b9c25dada790d80e863c2d8363c2",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/fastquit.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/fastquit.toml",
             "sha1": "7ed819e0bb5eabeecbb698a705eeeed3f4721fa4",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/ferritecore.mixin.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/ferritecore.mixin.properties",
             "sha1": "8cec200d99bbe46689cbae8df75d62f4d52f68c1",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/forgeconfigapiport.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/forgeconfigapiport.toml",
             "sha1": "945e388c4165af7ad3ffa3bfcd89c1f0ccb14451",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/gammautils.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/gammautils.json",
             "sha1": "3e969ed32685e6679540f98ebde9d9e09488184a",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/immediatelyfast.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/immediatelyfast.json",
             "sha1": "2135f9dbac1f6761eb0aedd0ba49fd5ce473eb61",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/iris-excluded.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/iris-excluded.json",
             "sha1": "20bd3420b5c911402ac289c154b56ac1dd8f84ba",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/iris.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/iris.properties",
             "sha1": "e8133a872c6f83e9dc5273895d53e0fcb7deac9d",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/isxander-main-menu-credits.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/isxander-main-menu-credits.json",
             "sha1": "156ab50f4bf400c1071503e60fb5dcecba4b698e",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/lambdynlights.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/lambdynlights.toml",
             "sha1": "886e5424fb6023b6edf631ae6698d06ee825da29",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/languagereload.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/languagereload.json",
             "sha1": "f1b1110ee4bdc2ab29133cb835aedd277f4eeced",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/lithium.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/lithium.properties",
             "sha1": "38f2993a7d80d0a6a25eb6182bd6898af24a16eb",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/midnightlib.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/midnightlib.json",
             "sha1": "7f635f0ca44379ba78c7390728700e36e7e0c050",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modernfix-mixins.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modernfix-mixins.properties",
             "sha1": "6eb97b6936c6ef850a1971c3c5032635da93357f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modmenu.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modmenu.json",
             "sha1": "0d2956a35dba8036d01eba30eb78c08a97f93c77",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/NoChatReports/NCR-Client.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/NoChatReports/NCR-Client.json",
             "sha1": "71120f8cdebbd0c953de70cb93439cfa0ed04f59",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/NoChatReports/NCR-Common.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/NoChatReports/NCR-Common.json",
             "sha1": "5fe17cdf0f39e1ef3787a6d479ca7c683ccb7cf1",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/PaginatedAdvancements.json5",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/PaginatedAdvancements.json5",
             "sha1": "38969898c8090d9f9ba729256fcedc4298f49b6a",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/bettergrass.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/bettergrass.json",
             "sha1": "5b395e8cc4d6a327c54ccd07c34f45d9cde23c6f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/capes.json5",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/capes.json5",
             "sha1": "1b7927062ee06d00b20b1424dc81e07798beb543",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/citresewn.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/citresewn.json",
             "sha1": "39c9ef73ac33e40c3ca15cd7abc0bf1275be32e8",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/config.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/config.toml",
             "sha1": "16dac0208958dd66cb1d33da0ed690f705635cdf",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/be_by.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/be_by.json",
             "sha1": "216f68e41873823f337a2aa2cc93f78f87d4cf07",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/en_us.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/en_us.json",
             "sha1": "544ce2ff26314ab44a1a317087951dcfaaa9df89",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/es_es.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/es_es.json",
             "sha1": "4edd5d325ef65209583f150a59cabfc71ab71dcd",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/es_ve.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/es_ve.json",
             "sha1": "4edd5d325ef65209583f150a59cabfc71ab71dcd",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/et_ee.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/et_ee.json",
             "sha1": "753151008028d844ca0b0b726017fbd80c412b0f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/fr_fr.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/fr_fr.json",
             "sha1": "12207a38a14f92b5ba5ee71c36632b14ec4f3fd6",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/he_il.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/he_il.json",
             "sha1": "bb08953968aa6e3c336317a43d56146a35012bf9",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/it_it.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/it_it.json",
             "sha1": "b8c2b44211a41bdadda129cec29cceda5669ce97",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/ms_my.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/ms_my.json",
             "sha1": "c0ec5bb523376e99f0579e194e7b5a780042dc3f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/pl_pl.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/pl_pl.json",
             "sha1": "84e46902219dbb2434f4ddba6ba1a3f498399ca1",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/ro_ro.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/ro_ro.json",
             "sha1": "9a296724b872ab564f0af7445449601e5e29f901",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/ru_ru.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/ru_ru.json",
             "sha1": "9800a9b49c5fcf6b0344c45132a31377b7806312",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/vi_vn.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/vi_vn.json",
             "sha1": "b035a70e914c6ad220bf525a5021703981ab7caf",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/zh_cn.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/zh_cn.json",
             "sha1": "9a6582a4ab13ed040f85fff41955a95c75524c1c",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/zh_tw.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/zh_tw.json",
             "sha1": "6822c754da9eb04003f4e713e3f4ce45c400d688",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/zlm_arab.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/crash_assistant/crash_assistant_localization_overrides/zlm_arab.json",
             "sha1": "08ec59ae5121cfc616566a51a765d2ad772deeb2",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/debugify.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/debugify.json",
             "sha1": "e516b1d400779dbb8819e6c8397470a5608c7ec0",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/dynamic_fps.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/dynamic_fps.json",
             "sha1": "673750cd8cf6896467451122af6354fc1c6deae0",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/entity_texture_features.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/entity_texture_features.json",
             "sha1": "91418752e836cd2ea9deffaf9bd5f6fc9e9242ec",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/fabric_loader_dependencies.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/fabric_loader_dependencies.json",
             "sha1": "cc61535defc60661904c921ac2da5ab39de42940",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/fabrishot.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/fabrishot.properties",
             "sha1": "e87106195458b9c25dada790d80e863c2d8363c2",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/fastquit.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/fastquit.toml",
             "sha1": "e00665ee16327466c894add52e398209d98d67a7",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/iris.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/iris.properties",
             "sha1": "443d5e09dd50778bb73e6a2632bf1a0a6353a2aa",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/isxander-main-menu-credits.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/isxander-main-menu-credits.json",
             "sha1": "156ab50f4bf400c1071503e60fb5dcecba4b698e",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/lambdynlights.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/lambdynlights.toml",
             "sha1": "7b639d6e9bb013db50ed4e074003cacf147f4f69",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/midnightlib.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/midnightlib.json",
             "sha1": "7f635f0ca44379ba78c7390728700e36e7e0c050",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/modernfix-mixins.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/modernfix-mixins.properties",
             "sha1": "6eb97b6936c6ef850a1971c3c5032635da93357f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/modmenu.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/modmenu.json",
             "sha1": "0d2956a35dba8036d01eba30eb78c08a97f93c77",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/moreculling.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/moreculling.toml",
             "sha1": "7c983e3e8b1ba2337e0504b38d7a5f103a5f9733",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/puzzle.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/puzzle.json",
             "sha1": "c5aceda9bac3906025ea22ce99e7c7a098d93722",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/rrls.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/rrls.toml",
             "sha1": "9eaaf526cbb9d996a7a2637cf47ccb99252b8f8c",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/sodium-extra-options.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/sodium-extra-options.json",
             "sha1": "e61c9093f340a65b70c948685d291dad06927220",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/sodium-options.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/sodium-options.json",
             "sha1": "db4377229df8bad8a7176d4639d25a54839d3535",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/config/sodium-shadowy-path-blocks-options.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/config/sodium-shadowy-path-blocks-options.json",
             "sha1": "f8106ae861e984db693434f54a191e599ce3bc83",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/debug-profile.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/modpack_defaults/debug-profile.json",
             "sha1": "5c46a5c48fccf27ad6be72134728153b0280773f",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/modpack_defaults/options.txt",
@@ -609,85 +609,85 @@
             "path": "config/moreculling.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/moreculling.toml",
             "sha1": "b98761cffd95b62467f782725de8dcfd62f68991",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/puzzle.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/puzzle.json",
             "sha1": "3747f18be99d38d26c8368551981eedb9792cc34",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/rrls.toml",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/rrls.toml",
             "sha1": "9eaaf526cbb9d996a7a2637cf47ccb99252b8f8c",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/skyboxify.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/skyboxify.json",
             "sha1": "43fff9e89389e9954e50c53dadaf72c7f480d4e8",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/sodium-extra-options.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/sodium-extra-options.json",
             "sha1": "4148ce075703afcd70d41264ae5ee415d50813fb",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/sodium-extra.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/sodium-extra.properties",
             "sha1": "e90b2514226a0624cf42112b42477f9872598b89",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/sodium-fingerprint.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/sodium-fingerprint.json",
             "sha1": "8875e2b8bad35ed06343b65251e8c8e9910f9524",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/sodium-mixins.properties",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/sodium-mixins.properties",
             "sha1": "5455463ee999b945c1cff8ae90f2b705e19fb86c",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/sodium-options.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/sodium-options.json",
             "sha1": "9425697212d2ffe67c9ee6a72e24f4a9ee20fb01",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/sodium-shadowy-path-blocks-options.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/sodium-shadowy-path-blocks-options.json",
             "sha1": "da9a475c98d7275c3e9c3899fabde3835def8d35",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/transition.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/transition.json",
             "sha1": "175ef27df07234a2e37dfbda9766f8c947122e12",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/trender.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/trender.json",
             "sha1": "1ecd2edb27bfbc69f24e0cd52d3a22f98bdce8f0",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/yacl.json5",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/yacl.json5",
             "sha1": "622920f29084efcd3a8d0b2a0ea0756fece182d2",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "config/zoomify.json",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/config/zoomify.json",
             "sha1": "d9a9878c8753f2580a0b43eb6afd7c6dfec31902",
-            "policy": 0
+            "policy": 1
         },
         {
             "path": "mods/BetterGrassify-1.8.4+fabric.1.21.11.jar",

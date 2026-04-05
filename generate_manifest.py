@@ -14,7 +14,7 @@ MODPACK_FOLDER = "files"
 OUTPUT_FILE = "modpack_manifest.json"
 POLICY_FILE = "policies.json"          # optional custom policy overrides
 
-SERVER_IP = "localhost"       # Change for production
+SERVER_IP = "127.0.0.1"       # Changed to IPv4 loopback for local testing
 SERVER_PORT = 25565
 # ---------------------
 
@@ -30,21 +30,28 @@ def calculate_sha1(filepath):
 
 def get_policy_for_file(filename, relative_path, custom_policies):
     """
-    Returns the sync policy for a file.
-    - If custom_policies dict contains an entry for the relative path, use that.
-    - Otherwise, treat files in the 'ignore_files' list as POLICY_IGNORE.
-    - Default: POLICY_STRICT.
+    Returns the sync policy for a file using a Priority System.
     """
-    # First check custom policies from the external JSON file
-    if relative_path in custom_policies:
-        pol = custom_policies[relative_path]
-        if pol == "ignore":
-            return POLICY_IGNORE
-        if pol == "replace":
-            return POLICY_REPLACE
-        # "strict" or any other value falls through to default
+    # Ensure consistent forward slashes for matching
+    safe_path = relative_path.replace("\\", "/")
 
-    # Default ignore list (files that should not be overwritten)
+    # PRIORITY 1: Exact file match (e.g., "config/custom_menu.json")
+    if safe_path in custom_policies:
+        pol = custom_policies[safe_path].lower()
+        if pol == "ignore": return POLICY_IGNORE
+        if pol == "replace": return POLICY_REPLACE
+        if pol == "strict": return POLICY_STRICT
+
+    # PRIORITY 2: Folder match (e.g., "config/")
+    # Sort keys by length descending so deeper folders get checked before parent folders
+    for key in sorted(custom_policies.keys(), key=len, reverse=True):
+        if key.endswith("/") and safe_path.startswith(key):
+            pol = custom_policies[key].lower()
+            if pol == "ignore": return POLICY_IGNORE
+            if pol == "replace": return POLICY_REPLACE
+            if pol == "strict": return POLICY_STRICT
+
+    # PRIORITY 3: Default hardcoded ignore list
     ignore_files = [
         "options.txt",
         "servers.dat",
@@ -55,15 +62,13 @@ def get_policy_for_file(filename, relative_path, custom_policies):
         "hotbar.nbt"
     ]
 
-    # If the file matches one of these names, ignore it
     if filename.lower() in ignore_files:
         return POLICY_IGNORE
 
-    # Also ignore any file inside resourcepacks/ (they are big and user-provided)
-    if relative_path.replace("\\", "/").startswith("resourcepacks/"):
+    if safe_path.startswith("resourcepacks/"):
         return POLICY_IGNORE
 
-    # All others are strict
+    # PRIORITY 4: Default to Strict
     return POLICY_STRICT
 
 def generate_manifest():
@@ -73,6 +78,7 @@ def generate_manifest():
         try:
             with open(POLICY_FILE, "r") as f:
                 custom_policies = json.load(f)
+            print(f"Loaded {len(custom_policies)} rules from {POLICY_FILE}")
         except Exception as e:
             print(f"Warning: Could not load {POLICY_FILE}: {e}")
 
@@ -120,16 +126,20 @@ def generate_manifest():
                 }
             )
 
+    # Sort files alphabetically to ensure consistent manifest generation
     manifest["files"] = sorted(unsorted_files, key=lambda x: x["path"])
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(manifest, f, indent=4)
 
     print(f"Set hai boss! {len(manifest['files'])} files ka '{OUTPUT_FILE}' ready hai.")
-    print("Policies used:")
-    for entry in manifest["files"]:
-        pol_name = ["strict", "ignore", "replace"][entry["policy"]]
-        print(f"  {entry['path']} -> {pol_name}")
+    
+    # Optional: Print out a quick summary of what policies were applied
+    strict_count = sum(1 for f in manifest["files"] if f["policy"] == POLICY_STRICT)
+    ignore_count = sum(1 for f in manifest["files"] if f["policy"] == POLICY_IGNORE)
+    replace_count = sum(1 for f in manifest["files"] if f["policy"] == POLICY_REPLACE)
+    
+    print(f"Summary: {strict_count} Strict | {ignore_count} Ignore | {replace_count} Replace")
 
 if __name__ == "__main__":
     generate_manifest()

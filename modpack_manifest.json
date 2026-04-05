@@ -720,6 +720,12 @@
             "policy": 0
         },
         {
+            "path": "mods/Gamma-Utils-2.5.10+mc1.21.11.jar",
+            "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/mods/Gamma-Utils-2.5.10%2Bmc1.21.11.jar",
+            "sha1": "3f06271ea2c87634c23a37c97608b38fb78e015d",
+            "policy": 0
+        },
+        {
             "path": "mods/ImmediatelyFast-Fabric-1.14.2+1.21.11.jar",
             "url": "https://raw.githubusercontent.com/nottyguru/Mayanagri-Client/main/files/mods/ImmediatelyFast-Fabric-1.14.2%2B1.21.11.jar",
             "sha1": "4f17c6b7388f0afc5d24075dc2a294963f78c712",

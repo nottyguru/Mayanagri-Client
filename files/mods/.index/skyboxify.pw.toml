@@ -1,0 +1,17 @@
+filename = 'skyboxify-2.7+1.21.11-fabric.jar'
+name = 'Skyboxify'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.7'
+
+[download]
+hash = '3f6cec0b1f5d20f2eb6a7d7a66607430e6bd361f93130e6df3a322209a567291bcbfd1f954fff54f91d637690a545d7cabecf4968e28fbb097592334f01dc55e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DWuwk8aA/versions/A78kPZ7I/skyboxify-2.7%2B1.21.11-fabric.jar'
+
+[update.modrinth]
+mod-id = 'DWuwk8aA'
+version = 'A78kPZ7I'

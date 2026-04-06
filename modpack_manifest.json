@@ -575,5 +575,11 @@
             "sha1": "8f91fda694c8cdcba3f292c61d73dc29141d0e5f",
             "policy": 1
         }
+    ],
+    "managed_directories": [
+        "mods",
+        "resourcepacks",
+        "config",
+        "shaderpacks"
     ]
 }

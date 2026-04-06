@@ -111,6 +111,9 @@ def generate_manifest():
             policy = get_policy_for_file(file, forward_slash_path, custom_policies)
             file_hash = calculate_sha1(filepath)
 
+            encoded_path = urllib.parse.quote(forward_slash_path, safe='/')
+            download_url = f"{BASE_URL}{encoded_path}?v={file_hash}"
+
             unsorted_files.append(
                 {
                     "path": forward_slash_path,

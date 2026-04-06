@@ -1,0 +1,2 @@
+# Prevent Git from converting CRLF to LF, which breaks SHA1 hash matching
+files/** -text

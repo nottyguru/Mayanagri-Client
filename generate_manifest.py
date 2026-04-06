@@ -117,7 +117,8 @@ def generate_manifest():
             relative_path = os.path.relpath(filepath, MODPACK_FOLDER)
             forward_slash_path = relative_path.replace("\\", "/")
 
-            encoded_path = urllib.parse.quote(forward_slash_path)
+            # FIX: Ensure forward slashes inside paths aren't converted to %2F
+            encoded_path = urllib.parse.quote(forward_slash_path, safe='/')
             download_url = BASE_URL + encoded_path
 
             policy = get_policy_for_file(file, forward_slash_path, custom_policies)

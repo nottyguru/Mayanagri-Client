@@ -1,0 +1,6 @@
+{
+    "config/": "ignore",
+    "mods/": "strict",
+    "options.txt": "ignore",
+    "servers.dat": "ignore"
+}

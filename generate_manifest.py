@@ -14,7 +14,7 @@ MODPACK_FOLDER = "files"
 OUTPUT_FILE = "modpack_manifest.json"
 POLICY_FILE = "policies.json"          # optional custom policy overrides
 
-SERVER_IP = "127.0.0.1"       # Changed to IPv4 loopback for local testing
+SERVER_IP = "127.0.0.1"       
 SERVER_PORT = 25565
 # ---------------------
 
@@ -32,8 +32,8 @@ def get_policy_for_file(filename, relative_path, custom_policies):
     """
     Returns the sync policy for a file using a Priority System.
     """
-    # Ensure consistent forward slashes for matching
-    safe_path = relative_path.replace("\\", "/")
+    # Safe path already uses forward slashes thanks to os.path manipulation below
+    safe_path = relative_path
 
     # PRIORITY 1: Exact file match (e.g., "config/custom_menu.json")
     if safe_path in custom_policies:
@@ -43,7 +43,6 @@ def get_policy_for_file(filename, relative_path, custom_policies):
         if pol == "strict": return POLICY_STRICT
 
     # PRIORITY 2: Folder match (e.g., "config/")
-    # Sort keys by length descending so deeper folders get checked before parent folders
     for key in sorted(custom_policies.keys(), key=len, reverse=True):
         if key.endswith("/") and safe_path.startswith(key):
             pol = custom_policies[key].lower()
@@ -95,12 +94,7 @@ def generate_manifest():
             "-Xmn128M"
         ],
         "files": [],
-        "managed_directories": [
-            "mods",
-            "resourcepacks",
-            "config",     # Now you can add config!
-            "shaderpacks" # And shaders!
-        ],
+        "managed_directories": [],
     }
 
     print("Bhai, files scan ho rahi hain...")
@@ -115,9 +109,10 @@ def generate_manifest():
         for file in files:
             filepath = os.path.join(root, file)
             relative_path = os.path.relpath(filepath, MODPACK_FOLDER)
-            forward_slash_path = relative_path.replace("\\", "/")
+            
+            # FIX: Ensure safe path string handling regardless of OS (Windows/Linux CI)
+            forward_slash_path = "/".join(relative_path.split(os.sep))
 
-            # FIX: Ensure forward slashes inside paths aren't converted to %2F
             encoded_path = urllib.parse.quote(forward_slash_path, safe='/')
             download_url = BASE_URL + encoded_path
 
@@ -141,7 +136,6 @@ def generate_manifest():
 
     print(f"Set hai boss! {len(manifest['files'])} files ka '{OUTPUT_FILE}' ready hai.")
     
-    # Optional: Print out a quick summary of what policies were applied
     strict_count = sum(1 for f in manifest["files"] if f["policy"] == POLICY_STRICT)
     ignore_count = sum(1 for f in manifest["files"] if f["policy"] == POLICY_IGNORE)
     replace_count = sum(1 for f in manifest["files"] if f["policy"] == POLICY_REPLACE)

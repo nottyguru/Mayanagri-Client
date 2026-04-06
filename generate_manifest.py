@@ -22,13 +22,27 @@ TARGET_DIRS = ["config", "resourcepacks", "mods"]
 # ---------------------
 
 def calculate_sha1(filepath):
+    # These text files are notorious for CRLF/LF hash mismatches
+    text_extensions = {".json", ".toml", ".properties", ".txt", ".cfg", ".yaml", ".yml", ".mcmeta"}
+    _, ext = os.path.splitext(filepath)
+    
     sha1 = hashlib.sha1()
-    with open(filepath, "rb") as f:
-        while True:
-            data = f.read(65536)
-            if not data:
-                break
-            sha1.update(data)
+    
+    if ext.lower() in text_extensions:
+        # Read as text, force Unix line endings (\n), then hash.
+        # This guarantees the hash matches what GitHub serves!
+        with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+            content = f.read().replace("\r\n", "\n").encode("utf-8")
+            sha1.update(content)
+    else:
+        # Read standard binary files (like .jar or .png) normally
+        with open(filepath, "rb") as f:
+            while True:
+                data = f.read(65536)
+                if not data:
+                    break
+                sha1.update(data)
+                
     return sha1.hexdigest()
 
 def get_policy_for_file(filename, relative_path, custom_policies):

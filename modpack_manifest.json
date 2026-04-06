@@ -11,5 +11,10 @@
         "-Xmn128M"
     ],
     "files": [],
-    "managed_directories": []
+    "managed_directories": [
+        "mods",
+        "resourcepacks",
+        "config",
+        "shaderpacks"
+    ]
 }

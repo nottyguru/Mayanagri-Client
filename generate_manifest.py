@@ -95,7 +95,12 @@ def generate_manifest():
             "-Xmn128M"
         ],
         "files": [],
-        "managed_directories": [],
+        "managed_directories": [
+            "mods",
+            "resourcepacks",
+            "config",     # Now you can add config!
+            "shaderpacks" # And shaders!
+        ],
     }
 
     print("Bhai, files scan ho rahi hain...")

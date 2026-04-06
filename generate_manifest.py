@@ -85,7 +85,7 @@ def generate_manifest():
     manifest = {
         "manifest_version": 1,
         "minecraft_version": "1.21.11",
-        "fabric_version": "0.18.4",
+        "fabric_version": "0.18.5",
         "java_version": 21,
         "server_ip": SERVER_IP,
         "server_port": SERVER_PORT,

@@ -1,6 +1,5 @@
 {
-    "config/": "ignore",
+    "config/": "strict",
     "mods/": "strict",
-    "options.txt": "ignore",
-    "servers.dat": "ignore"
+    "resourcepacks/": "strict"
 }
